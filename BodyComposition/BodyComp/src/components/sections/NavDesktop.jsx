@@ -111,32 +111,32 @@ const NavDesktop = () => {
           />
         </svg>
       </div>
-      <NavToggle onClick={toggleNav} aria-expanded={isOpen}>
+{/*       <NavToggle onClick={toggleNav} aria-expanded={isOpen}>
         Menu
-      </NavToggle>
+      </NavToggle> */}
       <StyledList aria-expanded={isOpen}>
         <li>
-          <Link to="/" target="_blank" rel="noopener noreferrer">
+          <Link to="/" target="https://www.smashit.co.za/" rel="noopener noreferrer">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/Services" target="_blank" rel="noopener noreferrer">
+          <Link to="/Services" target="https://www.smashit.co.za/services-2/" rel="noopener noreferrer">
             Services
           </Link>
         </li>
         <li>
-          <Link to="/Team" target="_blank" rel="noopener noreferrer">
+          <Link to="/Team" target="https://www.smashit.co.za/about/" rel="noopener noreferrer">
             Meet the Team
           </Link>
         </li>
         <li>
-          <Link to="/Blog" target="_blank" rel="noopener noreferrer">
+          <Link to="/Blog" target="https://www.smashit.co.za/blog-2/" rel="noopener noreferrer">
             Blog
           </Link>
         </li>
         <li>
-          <Link to="/Faqs" target="_blank" rel="noopener noreferrer">
+          <Link to="/Faqs" target="https://www.smashit.co.za/faqs/" rel="noopener noreferrer">
             FAQs
           </Link>
         </li>
@@ -144,7 +144,7 @@ const NavDesktop = () => {
           <Link to="/CalorieCalculator">Calorie Calculator</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/Contact" target="https://www.smashit.co.za/contact-2/">Contact</Link>
         </li>
       </StyledList>
     </StyledNav>
